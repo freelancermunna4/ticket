@@ -27,7 +27,7 @@ if(isset($_POST['add_ticket'])){
   $sql = mysqli_query($conn,$sql);
   if($sql){
     $msg = "Successfully Created Ticket!";
-    header("location:new-ticket.php?msg=$msg");
+    header("location:new-ticket.php?msg=$msg"); 
   }else{
     $msg = "Seomethings error! Please try again";
  }
