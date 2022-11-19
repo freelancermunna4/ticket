@@ -21,7 +21,7 @@ if(isset($_POST['save'])){
   $birth = $_POST['birth'];
   $phone = $_POST['phone'];
   $facebook = $_POST['facebook'];
-  $twitter = $_POST['twitter'];
+  $twitter = $_POST['twitter']; 
   $time = time();
 
   $file_name = $_FILES['file']['name'];
