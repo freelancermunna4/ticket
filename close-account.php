@@ -29,7 +29,7 @@ if(isset($_POST['confirm_pass'])){
             <div class="dashboard_layout">
             <?php include('common/sidebar.php');?>
 
-              <div class="dashboard_content">
+              <div class="dashboard_content"> 
                 <form action="" method="POST">
                 <div class="dc_box">
                   <div class="dc_box_header">
