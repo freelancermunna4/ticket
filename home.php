@@ -26,7 +26,7 @@ $solved = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM ticket WHERE solved=
                         <span class="value_area_icon">
                           <i class="fa-solid fa-coins"></i></span>
                         <span class="value"><?php echo $ticket;?></span>
-                      </div>
+                      </div> 
                       <div class="title">Total Ticket</div>
                     </div>
 
