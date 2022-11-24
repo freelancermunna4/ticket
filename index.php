@@ -23,7 +23,7 @@ if(isset($_POST['sign_up'])){
  
  $sign_check = "SELECT * FROM user_info WHERE phone='$phone'";
  $sign_query = mysqli_query($conn,$sign_check);
- $sign_query = mysqli_fetch_assoc($sign_query);
+ $sign_query = mysqli_fetch_assoc($sign_query); 
  if($sign_query>0){
      $err = "You have an Account! Please login or forgot.";
  }else{
