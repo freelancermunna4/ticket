@@ -25,7 +25,7 @@ if(isset($_POST['add_ticket'])){
  $sql = "INSERT INTO ticket (user_name,user_id,user_img,ticket_id,subject,phone,option,message,file_name,user_time,time,refarence) VALUES ('$user_name', '$user_id', '$img','$ticket_id','$subject', '$phone', '$option', '$message', '$file_name','$user_time','$time','$refarence')";
 
   $sql = mysqli_query($conn,$sql);
-  if($sql){
+  if($sql){ 
     $msg = "Successfully Created Ticket!";
     header("location:new-ticket.php?msg=$msg"); 
   }else{
