@@ -20,7 +20,7 @@ if(isset($_POST['save'])){
   $zip = $_POST['zip']; 
   $birth = $_POST['birth'];
   $phone = $_POST['phone'];
-  $facebook = $_POST['facebook'];
+  $facebook = $_POST['facebook']; 
   $twitter = $_POST['twitter']; 
   $time = time();
 
