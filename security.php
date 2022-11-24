@@ -23,7 +23,7 @@ if(isset($_POST['change_pass'])){
       }else{
         $msg = "Something worng. Please try again!";
       }
-    }else{
+    }else{ 
       $msg = "Your Password and confirm password not same";
     }
   }else{
