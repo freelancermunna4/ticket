@@ -17,7 +17,7 @@ if(isset($_POST['save'])){
   $country = $_POST['country'];
   $address = $_POST['address'];
   $city = $_POST['city'];
-  $zip = $_POST['zip'];
+  $zip = $_POST['zip']; 
   $birth = $_POST['birth'];
   $phone = $_POST['phone'];
   $facebook = $_POST['facebook'];
