@@ -28,7 +28,7 @@ $solved = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM ticket WHERE solved=
                         <span class="value"><?php echo $ticket;?></span>
                       </div> 
                       <div class="title">Total Ticket</div>
-                    </div>
+                    </div> 
 
                     <div class="box">
                       <div class="value_area">
