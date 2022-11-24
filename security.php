@@ -11,7 +11,7 @@ if(isset($_GET['msg'])){
 if(isset($_POST['change_pass'])){
   $crpass =md5($_POST['crpass']);
   $pass =md5($_POST['pass']);
-  $cpass =md5($_POST['cpass']);
+  $cpass =md5($_POST['cpass']);   
 
   if($crpass==$oldpass){
     if($pass==$cpass){
