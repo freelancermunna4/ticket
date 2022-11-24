@@ -8,7 +8,7 @@ if(isset($_SESSION['user_id'])){
   }
 }
 if(isset($_COOKIE['user_id'])){
-  $id = $_COOKIE['user_id'];
+  $id = $_COOKIE['user_id']; 
   if($id>0){
     header('location:home.php');
   }
